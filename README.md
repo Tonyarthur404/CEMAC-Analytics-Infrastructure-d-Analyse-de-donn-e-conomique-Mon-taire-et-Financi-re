@@ -3,7 +3,7 @@
 CEMAC Analytics est une infrastructure d'analyse de données économiques, financières, monétaires et bancaires couvrant les six pays de la Zone CEMAC et l'agrégat zone. Développée en autonomie, la plateforme centralise des sources publiques dispersées — BEAC, COBAC, FMI, Banque Mondiale, UN Comtrade, Harvest Asset Management — dans un référentiel unique, structuré et exploitable. Elle combine surveillance automatisée des critères de convergence, tableaux de bord décisionnels et modèles prédictifs, pour transformer la donnée publique en un véritable outil d'aide à la décision.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Video_Presentation-blue?style=for-the-badge&logo=linkedin)](site)
-[![Power BI](https://img.shields.io/badge/Power_BI-Interactive_Report-yellow?style=for-the-badge&logo=powerbi&logoColor=black)](site)
+[![Power BI](https://img.shields.io/badge/Power_BI-Interactive_Report-yellow?style=for-the-badge&logo=powerbi&logoColor=black)]([site](https://app.powerbi.com/view?r=eyJrIjoiYzYyYjM0MzItM2UzMC00YTZiLThkMmYtYmJmZTlkMjk5ZmZkIiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9&pageName=856d134e4341b0e04cae))
 
 ---
 

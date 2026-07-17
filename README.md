@@ -1,9 +1,9 @@
 # 🌍 CEMAC Analytics : Infrastructure d'Analyse de Données Économique, Monétaire et Financière
 
-Une plateforme complète de Business Intelligence développée en autonomie pour transformer les données publiques dispersées de la Zone CEMAC en une infrastructure décisionnelle unifiée. Ce projet couvre six mois et demi de collecte, structuration et modélisation de données économiques, financières, monétaires et bancaires sur les six pays de la zone.
+CEMAC Analytics est une infrastructure d'analyse de données économiques, financières, monétaires et bancaires couvrant les six pays de la Zone CEMAC et l'agrégat zone. Développée en autonomie, la plateforme centralise des sources publiques dispersées — BEAC, COBAC, FMI, Banque Mondiale, UN Comtrade, Harvest Asset Management — dans un référentiel unique, structuré et exploitable. Elle combine surveillance automatisée des critères de convergence, tableaux de bord décisionnels et modèles prédictifs, pour transformer la donnée publique en un véritable outil d'aide à la décision.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Video_Presentation-blue?style=for-the-badge&logo=linkedin)](https://a completer)
-[![Power BI](a completer)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Video_Presentation-blue?style=for-the-badge&logo=linkedin)](site)
+[![Power BI](https://img.shields.io/badge/Power_BI-Interactive_Report-yellow?style=for-the-badge&logo=powerbi&logoColor=black)](site)
 
 ---
 
@@ -87,4 +87,4 @@ Le projet est conçu comme une base évolutive, pensée pour s'adapter aux besoi
 ---
 
 *Projet indépendant — Tony Arthur KENMOE KEMBOU, Business Analyst & Data Engineer, Yaoundé.*
-*Certifié Codebasics — Data Analytics Bootcamp 5.0.*
+*Certifié Codebasics — Data Analytics Bootcamp 5.0: Job Placement Support + AI Automation & Data Engineering Basics*

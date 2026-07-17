@@ -40,24 +40,48 @@ En tant que Business Analyst et Data Engineer, j'ai construit cette plateforme p
 
 ## 📸 Aperçu des Tableaux de Bord
 
-###  Page d'Accueil & Navigation
-![Page d'accueil](Screenshot/home_page.png)
+### Page d'Accueil & Navigation
+![Page d'accueil](Screenshot/0_home_cemac_analytics.png)
 
-###  1. Macroéconomie
-*Vue consolidée PIB, inflation et comparaison des seuils de convergence.*
-![Macroéconomie](Screenshot/macroeconomie.png)
-
-###  2. Bancaire / COBAC
-*Supervision prudentielle et indicateurs de risque bancaire.*
-![Bancaire COBAC](Screenshot/bancaire_cobac.png)
-
-###  3. Alertes & Convergence
+### 1. Alertes & Convergence
 *Matrice de convergence et journal d'alertes automatisées.*
-![Alertes Convergence](Screenshot/alertes_convergence.png)
+![Alertes Convergence](Screenshot/1_alertes_cemac_analytics.png)
 
-###  4. IA & Prévisions
+### 2. Macroéconomie
+*Vue consolidée PIB, inflation et comparaison des seuils de convergence.*
+![Macroéconomie](Screenshot/2_macroeconomie_cemac_analytics.png)
+
+### 3. Monétaire & Crédit
+*Masse monétaire, crédit à l'économie et taux directeur.*
+![Monétaire Crédit](Screenshot/3_monetaire_cemac_analytics.png)
+
+### 4. PIB Sectoriel
+*Structure sectorielle du PIB et prix des matières premières.*
+![PIB Sectoriel](Screenshot/4_pib_sectoriel_cemac_analytics.png)
+
+### 5. Finances Publiques & Dette Souveraine
+*Recettes, dépenses et soldes budgétaires par pays.* *Encours de dette publique et ses composantes.*
+![Finances Publiques](Screenshot/5_finance_pub_dette_cemac_analytics.png)
+
+### 6. Bancaire / COBAC
+*Supervision prudentielle et indicateurs de risque bancaire.*
+![Bancaire COBAC](Screenshot/6_bancaire_cemac_analytics.png)
+
+### 7. Secteur Extérieur
+*Commerce extérieur par filière et partenaire commercial.*
+![Secteur Extérieur](Screenshot/7_secteur_exterieur_cemac_analytics.png)
+
+### 8. Inclusion Financière
+*Mobile Money, bancarisation et systèmes de paiement.*
+![Inclusion Financière](Screenshot/8_inclusion_financiere_cemac_analytics.png)
+
+### 9. Marché des Titres
+*Émissions BTA/OTA par pays et maturité.*
+![Marché des Titres](Screenshot/9_marché_cemac_analytics.png)
+
+### 10. IA & Prévisions
 *Matrice Prophet vs XGBoost avec intervalles de confiance.*
-![IA Prévisions](Screenshot/ia_previsions.png)
+![IA Prévisions](Screenshot/10_ia_cemac_analytics.png)
 
 ---
 

@@ -111,4 +111,4 @@ Le projet est conçu comme une base évolutive, pensée pour s'adapter aux besoi
 ---
 
 *Projet indépendant — Tony Arthur KENMOE KEMBOU, Business Analyst & Data Engineer, Yaoundé.*
-*Certifié Codebasics — Data Analytics Bootcamp 5.0: Job Placement Support + AI Automation & Data Engineering Basics*
+*Certifié Codebasics — Data Analytics Bootcamp 5.0: Job Placement Support + AI Automation & Data Engineering Basics - Juillet 2026*

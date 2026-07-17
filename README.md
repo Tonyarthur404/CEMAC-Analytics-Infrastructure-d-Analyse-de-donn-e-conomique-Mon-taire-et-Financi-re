@@ -4,7 +4,6 @@ Une plateforme complète de Business Intelligence développée en autonomie pour
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Présentation_Vidéo-blue?style=for-the-badge&logo=linkedin)]([À COMPLÉTER])
 [![Power BI](https://img.shields.io/badge/Power_BI-Rapport_Interactif-yellow?style=for-the-badge&logo=powerbi&logoColor=black)]([À COMPLÉTER])
-[![Streamlit](https://img.shields.io/badge/Streamlit-BDEMF-red?style=for-the-badge&logo=streamlit&logoColor=white)]([À COMPLÉTER])
 
 ---
 

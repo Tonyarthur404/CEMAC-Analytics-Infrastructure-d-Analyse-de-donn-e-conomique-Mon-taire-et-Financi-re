@@ -9,7 +9,7 @@ Une plateforme complète de Business Intelligence développée en autonomie pour
 
 ## 📌 Objectifs du Projet
 
-En tant que Business Analyst et Pre-Data Engineer, j'ai construit cette plateforme pour répondre à deux défis réels de la zone CEMAC :
+En tant que Business Analyst et Data Engineer, j'ai construit cette plateforme pour répondre à deux défis réels de la zone CEMAC :
 
 * **Asymétrie informationnelle :** Centraliser des données dispersées entre BEAC, COBAC, FMI, Banque Mondiale, UN Comtrade et Harvest Asset Management dans un référentiel unique.
 * **Surveillance de la convergence :** Automatiser le suivi des critères de convergence CEMAC — inflation, dette publique, solde budgétaire, réserves de change.
@@ -22,38 +22,38 @@ En tant que Business Analyst et Pre-Data Engineer, j'ai construit cette platefor
 
 | Dashboard | Description | Indicateurs clés |
 | :--- | :--- | :--- |
-| **🏠 Accueil** | Page d'entrée avec navigation vers les 11 tableaux de bord. | Navigation |
-| **📈 Macroéconomie** | Vue consolidée PIB, inflation, secteur extérieur des 6 pays. | PIB nominal, Inflation IPC |
-| **💰 Finances Publiques** | Recettes, dépenses, soldes budgétaires par pays. | Solde Budgétaire % PIB |
-| **📉 Dette Souveraine** | Encours de dette publique et ses composantes. | Dette Pub. % PIB |
-| **🏦 Monétaire & Crédit** | Masse monétaire, crédit à l'économie, TIAO. | M2, Crédit Éco |
-| **🏛️ Bancaire / COBAC** | Supervision prudentielle des banques commerciales et EMF. | NPL, PNB, Spread TEG/TIAO |
-| **📱 Inclusion Financière** | Mobile Money, bancarisation, GIMAC, SYSTAC. | Taux de bancarisation |
-| **📜 Marché des Titres** | Émissions BTA/OTA par pays et maturité. | Taux de réalisation |
-| **🌐 Secteur Extérieur** | Commerce extérieur par filière et partenaire. | Exports/Imports |
-| **🚨 Alertes & Convergence** | Suivi automatisé des 4 critères de convergence CEMAC. | Score de Risque Composite |
-| **🤖 IA & Prévisions** | Projections Prophet et XGBoost sur 3 horizons. | Prévisions H1/H2/H3 |
+| ** Accueil** | Page d'entrée avec navigation vers les 11 tableaux de bord. | Navigation |
+| ** Macroéconomie** | Vue consolidée PIB, inflation, secteur extérieur des 6 pays. | PIB nominal, Inflation IPC |
+| ** Finances Publiques** | Recettes, dépenses, soldes budgétaires par pays. | Solde Budgétaire % PIB |
+| ** Dette** | Encours de dette publique et ses composantes. | Dette Pub. % PIB |
+| ** Monétaire & Crédit** | Masse monétaire, crédit à l'économie, TIAO. | M2, Crédit Éco |
+| ** Bancaire / COBAC** | Supervision prudentielle des banques commerciales et EMF. | NPL, PNB, Spread TEG/TIAO |
+| ** Inclusion Financière** | Mobile Money, bancarisation, GIMAC, SYSTAC. | Taux de bancarisation |
+| ** Marché des Titres** | Émissions BTA/OTA par pays et maturité. | Taux de réalisation |
+| ** Secteur Extérieur** | Commerce extérieur par filière et partenaire. | Exports/Imports |
+| ** Alertes & Convergence** | Suivi automatisé des 4 critères de convergence CEMAC. | Score de Risque Composite |
+| ** IA & Prévisions** | Projections Prophet et XGBoost sur 3 horizons. | Prévisions H1/H2/H3 |
 
 ---
 
 ## 📸 Aperçu des Tableaux de Bord
 
-### 🏠 Page d'Accueil & Navigation
+###  Page d'Accueil & Navigation
 ![Page d'accueil](Screenshot/home_page.png)
 
-### 📈 1. Macroéconomie
+###  1. Macroéconomie
 *Vue consolidée PIB, inflation et comparaison des seuils de convergence.*
 ![Macroéconomie](Screenshot/macroeconomie.png)
 
-### 🏛️ 2. Bancaire / COBAC
+###  2. Bancaire / COBAC
 *Supervision prudentielle et indicateurs de risque bancaire.*
 ![Bancaire COBAC](Screenshot/bancaire_cobac.png)
 
-### 🚨 3. Alertes & Convergence
+###  3. Alertes & Convergence
 *Matrice de convergence et journal d'alertes automatisées.*
 ![Alertes Convergence](Screenshot/alertes_convergence.png)
 
-### 🤖 4. IA & Prévisions
+###  4. IA & Prévisions
 *Matrice Prophet vs XGBoost avec intervalles de confiance.*
 ![IA Prévisions](Screenshot/ia_previsions.png)
 
@@ -61,32 +61,27 @@ En tant que Business Analyst et Pre-Data Engineer, j'ai construit cette platefor
 
 ## 🔍 Enseignements Stratégiques
 
-* **La fragmentation a un coût mesurable :** Sur la dette publique du Congo, l'écart entre la source BEAC officielle (80,1% du PIB) et les projections FMI (99,01%) illustre concrètement l'asymétrie informationnelle que la plateforme cherche à résoudre.
-* **Une lacune de collecte corrigée :** L'audit systématique des 7 entités a révélé l'absence de données BEAC pour la dette publique du Congo, du Gabon et de la Guinée Équatoriale — corrigée en enrichissant le mapping de collecte.
 * **Deux modèles, deux lectures :** Prophet capture la tendance temporelle avec intervalles de confiance explicites ; XGBoost capture les interactions croisées entre indicateurs — ensemble, ils offrent une vision robuste plutôt qu'un chiffre unique trompeur.
 * **La rigueur prime sur la vitesse :** Le moteur d'alertes distingue strictement les données réelles constatées (BEAC/COBAC) des projections (FMI), pour ne jamais confondre un risque anticipé avec un risque avéré.
 
 ---
 
-## 🚀 Recommandations & Développements Futurs
+## 🚀 Perspectives d'évolution
 
-1. **Intégration PAPSS :** Suivre les flux de paiement panafricains suite à l'adhésion de la BEAC au Système Panafricain de Paiement et de Règlement (9 juillet 2026).
-2. **Extension du feature store :** Enrichir les variables d'entraînement IA avec des indicateurs de variation relative pour améliorer la robustesse des prévisions XGBoost.
-3. **Bilinguisme complet :** Étendre la couverture français/anglais de l'entrepôt de données à l'ensemble des tableaux de bord Power BI.
-4. **Ouverture institutionnelle :** Présenter le prototype à la BEAC pour explorer une collaboration sur la complétion des données manquantes.
+Le projet est conçu pour évoluer avec les besoins de la zone. Les prochaines étapes envisagées incluent l'enrichissement continu des sources de données, l'amélioration de la robustesse des modèles prédictifs, et l'extension progressive de la couverture fonctionnelle de la plateforme.
 
 ---
 
 ## 🛠️ Stack Technique & Compétences
 
-* **Python :** Scripts de collecte, transformation et chargement (ETL) — pandas, openpyxl, requests, psycopg2.
-* **PostgreSQL :** Entrepôt de données en modèle constellation (dim_* / fact_*).
+* **Python :** Scripts de collecte, transformation et chargement (ETL) 
+* **PostgreSQL :** Entrepôt de données 
 * **Prophet & XGBoost :** Modélisation prédictive multi-horizons.
-* **Power BI & DAX :** 11 tableaux de bord, mesures de convergence, moteur d'alertes visuel.
+* **Power BI & DAX :** 10 tableaux de bord, mesures de convergence, moteur d'alertes visuel.
 * **Streamlit :** Interface publique BDEMF (Base de Données Économique, Monétaire et Financière).
 * **Orchestration :** Pipeline automatisé, de la collecte à l'entraînement des modèles, en une seule exécution.
 
 ---
 
-*Projet indépendant — Tony Arthur KENMOE KEMBOU, Business Analyst & Pre-Data Engineer, Yaoundé.*
+*Projet indépendant — Tony Arthur KENMOE KEMBOU, Business Analyst & Data Engineer, Yaoundé.*
 *Certifié Codebasics — Data Analytics Bootcamp 5.0.*

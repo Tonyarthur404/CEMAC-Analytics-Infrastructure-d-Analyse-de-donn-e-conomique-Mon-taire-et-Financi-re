@@ -2,8 +2,8 @@
 
 Une plateforme complète de Business Intelligence développée en autonomie pour transformer les données publiques dispersées de la Zone CEMAC en une infrastructure décisionnelle unifiée. Ce projet couvre six mois et demi de collecte, structuration et modélisation de données économiques, financières, monétaires et bancaires sur les six pays de la zone.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Présentation_Vidéo-blue?style=for-the-badge&logo=linkedin)]([À COMPLÉTER])
-[![Power BI](https://img.shields.io/badge/Power_BI-Rapport_Interactif-yellow?style=for-the-badge&logo=powerbi&logoColor=black)]([À COMPLÉTER])
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Video_Presentation-blue?style=for-the-badge&logo=linkedin)](https://a completer)
+[![Power BI](a completer)
 
 ---
 
@@ -22,17 +22,19 @@ En tant que Business Analyst et Data Engineer, j'ai construit cette plateforme p
 
 | Dashboard | Description | Indicateurs clés |
 | :--- | :--- | :--- |
-| ** Accueil** | Page d'entrée avec navigation vers les 11 tableaux de bord. | Navigation |
-| ** Macroéconomie** | Vue consolidée PIB, inflation, secteur extérieur des 6 pays. | PIB nominal, Inflation IPC |
-| ** Finances Publiques** | Recettes, dépenses, soldes budgétaires par pays. | Solde Budgétaire % PIB |
-| ** Dette** | Encours de dette publique et ses composantes. | Dette Pub. % PIB |
-| ** Monétaire & Crédit** | Masse monétaire, crédit à l'économie, TIAO. | M2, Crédit Éco |
-| ** Bancaire / COBAC** | Supervision prudentielle des banques commerciales et EMF. | NPL, PNB, Spread TEG/TIAO |
-| ** Inclusion Financière** | Mobile Money, bancarisation, GIMAC, SYSTAC. | Taux de bancarisation |
-| ** Marché des Titres** | Émissions BTA/OTA par pays et maturité. | Taux de réalisation |
-| ** Secteur Extérieur** | Commerce extérieur par filière et partenaire. | Exports/Imports |
-| ** Alertes & Convergence** | Suivi automatisé des 4 critères de convergence CEMAC. | Score de Risque Composite |
-| ** IA & Prévisions** | Projections Prophet et XGBoost sur 3 horizons. | Prévisions H1/H2/H3 |
+| **Accueil** | Page d'entrée avec navigation vers les 11 tableaux de bord. | Navigation |
+| **Alertes & Convergence** | Suivi automatisé des 4 critères de convergence CEMAC. | Score de Risque Composite |
+| **Macroéconomie** | Vue consolidée PIB, inflation, secteur extérieur des 6 pays. | PIB nominal, Inflation IPC |
+|**PIB Sectoriel** | Structure sectorielle du PIB et prix des matières premières. | Part Agri, Cacao, Bois, Brent |
+| **Monétaire & Crédit** | Masse monétaire, crédit à l'économie, TIAO. | M2, Crédit Éco |
+| **Finances Publiques** | Recettes, dépenses, soldes budgétaires par pays. | Solde Budgétaire % PIB |
+| **Dette** | Encours de dette publique et ses composantes. | Dette Pub. % PIB |
+| **Bancaire / COBAC** | Supervision prudentielle des banques commerciales et EMF. | NPL, PNB, Spread TEG/TIAO |
+| **Inclusion Financière** | Mobile Money, bancarisation, GIMAC, SYSTAC. | Taux de bancarisation |
+| **Marché des Titres** | Émissions BTA/OTA par pays et maturité. | Taux de réalisation |
+| **Secteur Extérieur** | Commerce extérieur par filière et partenaire. | Exports/Imports |
+| **IA & Prévisions** | Projections Prophet et XGBoost sur 3 horizons. | Prévisions H1/H2/H3 |
+
 
 ---
 
@@ -63,12 +65,13 @@ En tant que Business Analyst et Data Engineer, j'ai construit cette plateforme p
 
 * **Deux modèles, deux lectures :** Prophet capture la tendance temporelle avec intervalles de confiance explicites ; XGBoost capture les interactions croisées entre indicateurs — ensemble, ils offrent une vision robuste plutôt qu'un chiffre unique trompeur.
 * **La rigueur prime sur la vitesse :** Le moteur d'alertes distingue strictement les données réelles constatées (BEAC/COBAC) des projections (FMI), pour ne jamais confondre un risque anticipé avec un risque avéré.
+* **Une seule source de vérité :** L'agrégation de six sources hétérogènes en un entrepôt unique élimine les incohérences entre indicateurs et garantit une traçabilité complète jusqu'à la donnée officielle.
 
 ---
 
 ## 🚀 Perspectives d'évolution
 
-Le projet est conçu pour évoluer avec les besoins de la zone. Les prochaines étapes envisagées incluent l'enrichissement continu des sources de données, l'amélioration de la robustesse des modèles prédictifs, et l'extension progressive de la couverture fonctionnelle de la plateforme.
+Le projet est conçu comme une base évolutive, pensée pour s'adapter aux besoins de la zone CEMAC dans la durée.
 
 ---
 
